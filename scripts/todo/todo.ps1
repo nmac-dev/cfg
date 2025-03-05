@@ -14,9 +14,9 @@ while(1) {
 		#fetch
 		$ws.AppActivate($proc)
 		# send
-		$ws.SendKeys("{F14}")
-		$ws.SendKeys("{F15}")
-		$ws.SendKeys("{F16}")
+		$ws.SendKeys("{F13}")
+		$ws.SendKeys("{F13}")
+		$ws.SendKeys("{F13}")
 	}
 	else { exit }
 	# sleep
