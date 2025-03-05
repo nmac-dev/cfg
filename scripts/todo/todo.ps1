@@ -7,7 +7,8 @@ start-process $proc $todo_list
 start-sleep 10
 
 # shell
-$ws = new-object -comobject wscript.shell;
+$ws      = new-object -comobject wscript.shell;
+$act_key = "{F13}" # activation key
 
 while(1) {
 	# select
@@ -15,9 +16,9 @@ while(1) {
 		#fetch
 		$ws.AppActivate($proc)
 		# send
-		$ws.SendKeys("{F13}")
-		$ws.SendKeys("{F13}")
-		$ws.SendKeys("{F13}")
+		$ws.SendKeys($act_key)
+		$ws.SendKeys($act_key)
+		$ws.SendKeys($act_key)
 	}
 	else { exit }
 	# sleep
