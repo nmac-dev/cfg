@@ -1,8 +1,9 @@
 # start-process <process> -windowstyle Hidden
 
-$proc = "notepad"
+$proc     = "notepad"
+$todo_txt = "$env:HOMEPATH\.cfg\scripts\todo\todo.txt"
 
-start-process $proc "$env:HOMEPATH\Documents\todo\todo.txt"
+start-process $proc $todo_list
 start-sleep 10
 
 # shell
