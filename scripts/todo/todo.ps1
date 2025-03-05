@@ -3,7 +3,7 @@
 $proc     = "notepad"
 $todo_txt = "$env:HOMEPATH\.cfg\scripts\todo\todo.txt"
 
-start-process $proc $todo_list
+start-process $proc $todo_txt
 start-sleep 10
 
 # shell
