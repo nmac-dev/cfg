@@ -1,0 +1,3 @@
+[submodule "scripts/cmd-in-powershell"]
+	path = scripts/cmd-in-powershell
+	url = https://github.com/nmac-dev/cmd-in-powershell.git
