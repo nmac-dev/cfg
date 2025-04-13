@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+alt+u",
@@ -13,5 +12,6 @@
     {
         "key": "ctrl+\\",
         "command": "-workbench.action.splitEditor"
-    },
+    }
+
 ]
