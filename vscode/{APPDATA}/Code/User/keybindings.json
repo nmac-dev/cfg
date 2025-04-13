@@ -1,30 +1,17 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+oem_5",
-        "command": "-workbench.action.splitEditor"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "-editor.action.selectHighlights",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "-selectAllSearchEditorMatches",
-        "when": "inSearchEditor"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "editor.action.transformToLowercase"
-    },
-    {
-        "key": "ctrl+shift+u",
+        "key": "ctrl+alt+u",
         "command": "editor.action.transformToUppercase"
     },
     {
-        "key": "ctrl+shift+u",
-        "command": "-workbench.action.output.toggleOutput",
-        "when": "workbench.panel.output.active"
-    }
+        "key": "ctrl+alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
+
+
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
 ]
